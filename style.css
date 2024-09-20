@@ -15,34 +15,34 @@ body {
 grid
 */
 .grid {
-    display: flex;
-    flex-wrap: wrap;  
-   
+   display: flex;
+   flex-wrap: wrap;  
+  
 }
 /*
 square
 */
 .square {
-    width: 20%;
-    height: 40%;
-    background-color: rgb(0, 0, 255); 
-    margin: 10px 10px 5px 10px;
-    border-radius: 5px;
-    box-shadow: 3px 3px 0 #696969;
-    flex-grow: calc(1);
+   width: 20%;
+   height: 40%;
+   background-color: rgb(0, 0, 255); 
+   margin: 10px 10px 5px 10px;
+   border-radius: 5px;
+   box-shadow: 3px 3px 0 #696969;
+   flex-grow: calc(1);
 }
 .square1 {
-    width: 40%;
+   width: 40%;
 }
 .square2 {
-    width: 3%;
+   width: 3%;
 }
 /*
 number
 */
 .number {
-    text-align: center;
-    padding: 10px; 
-    text-shadow: 3px 2px 1px #787777;
+   text-align: center;
+   padding: 10px; 
+   text-shadow: 3px 2px 1px #787777;
 
 }
