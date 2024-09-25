@@ -46,3 +46,69 @@ number
    text-shadow: 3px 2px 1px #787777;
 
 }
+
+/*
+form
+*/
+.form-headline {
+   text-align: center;
+   
+}
+.form {
+   margin: 40px 0 0 0;
+}
+
+/*
+email
+*/
+.email-text {
+   padding: 20px 10px;
+
+}
+
+/*
+password
+*/
+.password-text {
+   padding: 20px 10px
+}
+
+/*
+signin
+*/
+.signin {
+   width: 95%;
+
+}
+
+/*
+signup
+*/
+button[type="submit"] {
+   width: 95%;
+   padding: 10px;
+   background-color: rgb(0, 95, 248);
+   color: #fff;
+   border-radius: 3px;
+   cursor: pointer;
+   margin: 40px 0 20px 10px;
+}
+
+label {
+   display: block;
+   font-weight: bold;
+  
+}
+
+input[type="email"],
+input[type="password"] {
+   width: 95%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 3px; 
+}
+
+.signup-url {
+   padding: 0 0 0 10px;
+   font-size: 15px;
+}
